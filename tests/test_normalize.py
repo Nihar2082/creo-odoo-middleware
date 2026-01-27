@@ -1,3 +1,13 @@
+import sys
+import os
+
+# Add the project root (creo-odoo-middleware) to Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+# Now import your function
+from matching_logic.core.normalize import normalize_name
+
+
 # Import the function we want to test
 from matching_logic.core.normalize import normalize_name
 

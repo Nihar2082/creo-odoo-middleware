@@ -1,4 +1,4 @@
-- pyside6
-- pytest
-- pandas
-- openpyxl
+-   pyside6
+-   pytest
+-   pandas
+-   openpyxl
